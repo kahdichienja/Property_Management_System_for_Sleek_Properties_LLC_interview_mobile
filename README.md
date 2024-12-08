@@ -1,6 +1,6 @@
 # Property Management System
 
-Welcome to **Property Management System**, a Flutter-based application designed to manage property listings efficiently. This project uses state-of-the-art Flutter packages to provide seamless and user-friendly experiences for property management.
+ **Property Management System**, a Flutter-based application designed to manage property listings efficiently add, delete and edit property.
 
 ---
 
