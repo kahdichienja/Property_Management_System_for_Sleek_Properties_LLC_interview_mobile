@@ -8,6 +8,7 @@ class LoggingInterceptor extends InterceptorsWrapper with Interceptor {
 
   @override
   Future onRequest(RequestOptions options, RequestInterceptorHandler handler) async {
+    options.headers["accept"] = "application/json";
             
     debugPrint("--> START onRequest");
     debugPrint("--> Method: ${options.method} PATH:${options.path} REQUESTDATA: ${options.data}");

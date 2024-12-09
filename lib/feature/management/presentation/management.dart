@@ -55,6 +55,9 @@ class _ManagementState extends State<Management> {
               padding: const EdgeInsets.all(8.0),
               child: SfDataGrid(
                 source: dataGridSource,
+                frozenRowsCount: 1,
+                frozenColumnsCount: 1,
+                footerFrozenColumnsCount: 2,
                 columns: [
                   GridColumn(
                     columnName: 'id',
@@ -112,7 +115,7 @@ class _ManagementState extends State<Management> {
                       padding: const EdgeInsets.all(16.0),
                       alignment: Alignment.center,
                       child: const Text(
-                        '',
+                        'Action',
                       ),
                     ),
                   ),
